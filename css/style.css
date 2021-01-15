@@ -1,3 +1,79 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.orange-text{
+    color: #FA804C;
+}
+.section1 h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.section1{
+    margin: auto auto;
+}
+.section1 p{
+ font-style: normal;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 26px;
+}
+
+.custom-nav ul li a{
+    margin-left: 40px;
+
+}
+.bebas-text{
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.shoes-card{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+
+
+
+.custom-btn{
+    color: white;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+    padding:15px 38px;
+    text-decoration: none;
+}
+.custom-btn:hover{
+    color: white;
+    
+}
+@media (max-width: 576px) {
+    #gate-img{
+        display: none;
+    }
+    #gate-text{
+        display: none;
+    }
+    .centered-title{
+        text-align: center;
+    }
+
+    #large-display-inquiry{
+        display: none;
+    }
+
+   
+}
+@media (min-width: 577px) {
+    #sm-img{
+        display: none;
+    }
+    #sm-text{
+        display: none;
+    }
+    #small-display-inquiry{
+        display: none;
+    }
+ }
+
+
